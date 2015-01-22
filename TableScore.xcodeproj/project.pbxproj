@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		158596A41A67211D0072A685 /* HomeScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158596A31A67211D0072A685 /* HomeScoreViewController.m */; };
 		15935FCE1A5DF71500FC4A45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15935FCD1A5DF71500FC4A45 /* main.m */; };
 		15935FD11A5DF71500FC4A45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15935FD01A5DF71500FC4A45 /* AppDelegate.m */; };
 		15935FD41A5DF71500FC4A45 /* TableScore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15935FD21A5DF71500FC4A45 /* TableScore.xcdatamodeld */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		158596A21A67211D0072A685 /* HomeScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScoreViewController.h; sourceTree = "<group>"; };
+		158596A31A67211D0072A685 /* HomeScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScoreViewController.m; sourceTree = "<group>"; };
 		15935FC81A5DF71500FC4A45 /* TableScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15935FCC1A5DF71500FC4A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15935FCD1A5DF71500FC4A45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 		15935FF61A5DF7C400FC4A45 /* Controller Layer */ = {
 			isa = PBXGroup;
 			children = (
+				158596A21A67211D0072A685 /* HomeScoreViewController.h */,
+				158596A31A67211D0072A685 /* HomeScoreViewController.m */,
 			);
 			name = "Controller Layer";
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158596A41A67211D0072A685 /* HomeScoreViewController.m in Sources */,
 				15935FD11A5DF71500FC4A45 /* AppDelegate.m in Sources */,
 				15935FCE1A5DF71500FC4A45 /* main.m in Sources */,
 				15935FD41A5DF71500FC4A45 /* TableScore.xcdatamodeld in Sources */,
@@ -443,6 +449,7 @@
 				15935FF01A5DF71500FC4A45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15935FF11A5DF71500FC4A45 /* Build configuration list for PBXNativeTarget "TableScoreTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +458,7 @@
 				15935FF31A5DF71500FC4A45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
