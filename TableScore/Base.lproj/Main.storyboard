@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -25,7 +26,7 @@
                                     <constraint firstAttribute="height" constant="49" id="plq-8f-1WF"/>
                                 </constraints>
                                 <items>
-                                    <tabBarItem title="Game Scorecards" id="ii7-Jh-kFy"/>
+                                    <tabBarItem title="Games" image="MeepleNormal" selectedImage="MeepleSelected" id="ii7-Jh-kFy"/>
                                     <tabBarItem title="Start Player" id="It9-3w-aXw"/>
                                     <tabBarItem systemItem="history" id="kAe-sh-5EV"/>
                                 </items>
@@ -52,9 +53,9 @@
                                 <exclude reference="x6z-pM-Jr8"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="psS-ZB-ziS"/>
                                 <exclude reference="1tj-sg-BL4"/>
                                 <exclude reference="tag-tz-4K9"/>
-                                <exclude reference="psS-ZB-ziS"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -62,9 +63,9 @@
                                 <include reference="x6z-pM-Jr8"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="psS-ZB-ziS"/>
                                 <include reference="1tj-sg-BL4"/>
                                 <include reference="tag-tz-4K9"/>
-                                <include reference="psS-ZB-ziS"/>
                             </mask>
                         </variation>
                     </view>
@@ -74,4 +75,8 @@
             <point key="canvasLocation" x="394" y="287.25"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="MeepleNormal" width="25" height="25"/>
+        <image name="MeepleSelected" width="25" height="25"/>
+    </resources>
 </document>
